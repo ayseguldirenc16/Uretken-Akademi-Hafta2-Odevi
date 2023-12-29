@@ -1,0 +1,42 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    background-color: rgb(221, 202, 238);
+    color: black;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding: 24px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    transition: filter 0,3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    background-color: rgb(221, 202, 238);
+    height: 70px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+img:hover{
+    filter: brightness(45%);
+}
+
